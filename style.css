@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/* below is the nav bar */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.leaf {
+    background-color: rgb(0, 209, 178);
+    height: 50px;
+    margin-left: 200px;
+    border-radius: 10%;
+}
+
+input {
+    width: 700px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.cart {
+    height: 40px;
+    margin-right: 400px;
+    padding: 10px;
+}
+
+.search {
+    height: 40px;
+}
+
+/* below is the header */
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+hr {
+    width: 70%;
+    border: 2px solid black;
+    margin-left: 175px;
+}
+
+/* below is the your source header */
+
+.urSource {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 40px;
+    margin-right: 225px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+/* below is the middle portion of the page */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 220px;
+}
+
+
+.discover {
+    background-color: rgb(0, 187, 180);
+    color: white;
+    font-size: 50px;
+    width: 450px;
+    padding: 20px;
+    height: 285px;
+}
+
+.aloe {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.soothing {
+    color: white;
+    font-size: 25px;
+}
+
+.arrow-1 {
+    height: 40px;
+    margin-top: 50px;
+}
+
+.arrow-2 {
+    height: 40px;
+}
+
+.soothingAloe {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(0, 187, 180);
+    height: 90px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* below is the bottom portion of the page */
+
+.bottom {
+    background-color: rgb(170, 232, 216);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.plantNames {
+    text-align: center;
+}
+
+.plantPics {
+    border-radius: 50%;
+    padding: 10px;
+    height: 150px;
+}
+
+/* below is the cookie message */
+
+.cookie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+    width: 70%;
+    margin-left: 175px;
+}
+
+button {
+    background-color: rgb(0, 78, 75);
+    color: white;
+    box-shadow: 3px 3px 3px black;
+    width: 100px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.alert {
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.alertMessage {
+    font-size: 25px;
+}
